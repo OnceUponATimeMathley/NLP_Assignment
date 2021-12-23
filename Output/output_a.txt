@@ -1,0 +1,13 @@
+ACTION                     STACK                                    BUFFER                                                                                               ARCS
+                           [root]                                   [tàu_hỏa, nào, chạy, từ, đà_nẵng, ?]                                                                 []
+Shift                      [root, tàu_hỏa]                          [nào, chạy, từ, đà_nẵng, ?]                                                                          []
+Right arc star nmod        [root, tàu_hỏa]                          [chạy, từ, đà_nẵng, ?]                                                                               [nmod(tàu_hỏa->nào)]
+Left arc nsubj             [root]                                   [chạy, từ, đà_nẵng, ?]                                                                               [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa)]
+Right arc root             [root, chạy]                             [từ, đà_nẵng, ?]                                                                                     [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy)]
+Right arc pobj             [root, chạy, từ]                         [đà_nẵng, ?]                                                                                         [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy), pobj(chạy->từ)]
+Right arc dobj             [root, chạy, từ, đà_nẵng]                [?]                                                                                                  [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy), pobj(chạy->từ), dobj(từ->đà_nẵng)]
+Reduce                     [root, chạy, từ]                         [?]                                                                                                  [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy), pobj(chạy->từ), dobj(từ->đà_nẵng)]
+Reduce                     [root, chạy]                             [?]                                                                                                  [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy), pobj(chạy->từ), dobj(từ->đà_nẵng)]
+Right arc punc             [root, chạy, ?]                          []                                                                                                   [nmod(tàu_hỏa->nào), nsubj(chạy->tàu_hỏa), root(root->chạy), pobj(chạy->từ), dobj(từ->đà_nẵng), punc(chạy->?)]
+
+

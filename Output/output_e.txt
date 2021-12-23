@@ -1,0 +1,4 @@
+PRINT-ALL
+?tr (TRAIN ?tr) 
+(DTIME ?tr DANANG ?dt) 
+

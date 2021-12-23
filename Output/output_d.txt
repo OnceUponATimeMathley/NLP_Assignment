@@ -1,0 +1,1 @@
+{'WH-QUERY': {'chạy': {'AGENT': '<TRAIN t1 <WH t1 NAME>>', 'SOURCE': '<CITY t1<NAME t1 đà_nẵng>>'}}}

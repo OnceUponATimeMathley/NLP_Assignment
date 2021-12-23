@@ -1,0 +1,5 @@
+S root [
+SUBJ [N tàu_hỏa [N nào]]
+[MAIN-V chạy]
+[P từ [N đà_nẵng]]
+]

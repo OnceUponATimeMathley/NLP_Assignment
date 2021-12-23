@@ -1,0 +1,8 @@
+bắt đầu->từ
+kết thúc,tới->đến
+di chuyển,lăn bánh,rời khỏi,khởi hành,xuất phát->chạy
+hànội,hn,hà lội,thủ đô của việt nam,thủ đô của vn,thủ đô vn->hà nội
+sài gòn,hcm,trung tâm miền nam,tphcm,tp.hcm,tp.hồ chí minh,tp. hồ chí minh->hồ chí minh
+cố đô,cố đô huế->huế
+thành phố đáng sống->đà nẵng
+ntrang->nha trang
