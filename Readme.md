@@ -1,10 +1,39 @@
 #### Table of contents
-1. [Introduction](#introduction)
-2. [Installation](#install)
-2. [Usage for Python users](#python)
-3. [Usage for Java users](#java)
-4. [Experimental results](#exp)
+1. [Tutorial](#tutorial)
+2. [Introduction](#introduction)
+3. [Installation](#install)
+4. [Usage for Python users](#python)
+5. [Usage for Java users](#java)
+6. [Experimental results](#exp)
 
+# Tutorial  <a name="tutorial"></a>
+## REQUIREMENTS  
+Cài đặt VietCoreNLP 
+```
+pip install vncorenlp
+```
+## DATA
+Các file data bao gồm:
+* TrainName.txt: chứa tên các chuyến tàu hỏa.
+* city.txt: chứa tên các thành phố.
+* data.txt: chứa dữ liệu được cung cấp.
+* equivalent.txt: chứa dữ liệu về các cặp từ tương đối gần nghĩa, dùng để chuyển đổi cho thuận tiện.
+* relations.txt: chứa dữ liệu về mối quan hệ giữa các cặp từ trong câu, nếu quan hệ chưa được cập nhật, có thể dẫn đến sai sót khi thực hiện
+* các folder còn lại có sẵn khi cài đặt [vncorenlp theo hướng dẫn](https://github.com/vncorenlp/VnCoreNLP).
+## CONTENTS
+### Cách thực hiện
+Các câu được nhập vào sẽ được tiền xử lý sau đó tiến hành phân tích.
+### Sử dụng
+```
+python main.py <file input.txt>
+```
+Trong đó file input.txt là một file text được để trong folder Input, 
+chỉ cần nhập tên file, không cần dùng đường dẫn tuyệt đối.  
+Có 6 file tương ứng với 6 câu hỏi. Ví dụ:
+```
+python main.py 1.txt 
+```
+Các kết quả được lưu trong các file text trong folder Output, mỗi lần chạy thì kết quả chỉ được lưu ở các file output ứng với câu hỏi đang chạy.
 # VnCoreNLP: A Vietnamese natural language processing toolkit <a name="introduction"></a>
 
 VnCoreNLP is an NLP annotation pipeline for Vietnamese, providing rich linguistic annotations through key NLP components of **word segmentation**, **POS tagging**, **named entity recognition** (NER) and **dependency parsing**:
